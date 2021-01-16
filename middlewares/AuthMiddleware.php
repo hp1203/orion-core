@@ -1,15 +1,15 @@
 <?php 
 
-namespace app\core\middlewares;
+namespace himanshupurohit\orion\middlewares;
 
-use app\core\Application;
-use app\core\middlewares\BaseMiddleware;
-use app\core\exception\ForbiddenException;
+use himanshupurohit\orion\Application;
+use himanshupurohit\orion\middlewares\BaseMiddleware;
+use himanshupurohit\orion\exception\ForbiddenException;
 /**
  * Class AuthMiddleware
  * 
  * @author Himanshu Purohit <himanshu1203@gmail.com>
- * @package app\core\middlewares
+ * @package himanshupurohit\orion\middlewares
  */
 class AuthMiddleware extends BaseMiddleware
 {

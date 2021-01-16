@@ -1,15 +1,15 @@
 <?php 
 
-namespace app\core\form;
+namespace himanshupurohit\orion\form;
 
-use app\core\Model;
-use app\core\form\BaseField;
+use himanshupurohit\orion\Model;
+use himanshupurohit\orion\form\BaseField;
 
 /**
  * Class TextareaField
  * 
  * @author Himanshu Purohit <himanshu1203@gmail.com>
- * @package app\core\form
+ * @package himanshupurohit\orion\form
  */
 
  class TextareaField extends BaseField
@@ -28,7 +28,7 @@ use app\core\form\BaseField;
     /**
      * TextareaField Constructor
      * 
-     * @param \app\core\Model $model
+     * @param \himanshupurohit\orion\Model $model
      * @param string $attribute
      */
 

@@ -1,12 +1,12 @@
 <?php 
 
-namespace app\core\exception;
+namespace himanshupurohit\orion\exception;
 use Exception;
 /**
  * Class ForbiddenException
  * 
  * @author Himanshu Purohit <himanshu1203@gmail.com>
- * @package app\core\exception
+ * @package himanshupurohit\orion\exception
  */
 class ForbiddenException extends \Exception
 {

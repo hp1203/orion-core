@@ -1,16 +1,16 @@
 <?php 
 
-namespace app\core\form;
+namespace himanshupurohit\orion\form;
 
-use app\core\Model;
-use app\core\form\InputField;
-use app\core\form\TextareaField;
+use himanshupurohit\orion\Model;
+use himanshupurohit\orion\form\InputField;
+use himanshupurohit\orion\form\TextareaField;
 
 /**
  * Class Form
  * 
  * @author Himanshu Purohit <himanshu1203@gmail.com>
- * @package app\core\form
+ * @package himanshupurohit\orion\form
  */
 
  class Form 

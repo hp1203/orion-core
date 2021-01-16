@@ -1,13 +1,13 @@
 <?php 
 
-namespace app\core;
+namespace himanshupurohit\orion;
 
-use app\core\Application;
+use himanshupurohit\orion\Application;
 /**
  * Class Router
  * 
  * @author Himanshu Purohit <himanshu1203@gmail.com>
- * @package app\core
+ * @package himanshupurohit\orion
  */
 class Router 
 {
@@ -18,8 +18,8 @@ class Router
     /**
      * Router Constructor.
      * 
-     * @param app\core\Request $request
-     * * @param app\core\Response $response
+     * @param himanshupurohit\orion\Request $request
+     * * @param himanshupurohit\orion\Response $response
      */
 
     public function __construct(Request $request, Response $response)

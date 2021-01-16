@@ -1,11 +1,11 @@
 <?php 
 
-namespace app\core\middlewares;
+namespace himanshupurohit\orion\middlewares;
 /**
  * Class BaseMiddleware
  * 
  * @author Himanshu Purohit <himanshu1203@gmail.com>
- * @package app\core\middlewares
+ * @package himanshupurohit\orion\middlewares
  */
 abstract class BaseMiddleware 
 {   

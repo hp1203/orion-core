@@ -1,11 +1,11 @@
 <?php 
 
-namespace app\core;
+namespace himanshupurohit\orion;
 /**
  * Class Session
  * 
  * @author Himanshu Purohit <himanshu1203@gmail.com>
- * @package app\core
+ * @package himanshupurohit\orion
  */
 
  class Session

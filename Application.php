@@ -1,16 +1,16 @@
 <?php 
 
-namespace app\core;
-use app\core\View;
-use app\core\DbModel;
-use app\core\Session;
-use app\core\Database;
-use app\core\Controller;
+namespace himanshupurohit\orion;
+use himanshupurohit\orion\View;
+use himanshupurohit\orion\DbModel;
+use himanshupurohit\orion\Session;
+use himanshupurohit\orion\Database;
+use himanshupurohit\orion\Controller;
 /**
  * Class Application
  * 
  * @author Himanshu Purohit <himanshu1203@gmail.com>
- * @package app\core
+ * @package himanshupurohit\orion
  */
 class Application 
 {

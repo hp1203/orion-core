@@ -1,13 +1,13 @@
 <?php 
 
-namespace app\core;
-use app\core\Application;
-use app\core\middlewares\BaseMiddleware;
+namespace himanshupurohit\orion;
+use himanshupurohit\orion\Application;
+use himanshupurohit\orion\middlewares\BaseMiddleware;
 /**
  * Class Controller
  * 
  * @author Himanshu Purohit <himanshu1203@gmail.com>
- * @package app\core
+ * @package himanshupurohit\orion
  */
 
  class Controller
@@ -15,7 +15,7 @@ use app\core\middlewares\BaseMiddleware;
      public string $layout = 'main';
      public string $action = '';
      /**
-      * @var app\core\middlewares\BaseMiddleware[]
+      * @var himanshupurohit\orion\middlewares\BaseMiddleware[]
       */
      protected array $middlewares = [];
 
@@ -36,7 +36,7 @@ use app\core\middlewares\BaseMiddleware;
      /**
       * Get the value of middlewares
       *
-      * @return  app\core\middlewares\BaseMiddleware[]
+      * @return  himanshupurohit\orion\middlewares\BaseMiddleware[]
       */ 
      public function getMiddlewares()
      {

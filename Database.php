@@ -1,15 +1,15 @@
 <?php 
 
-namespace app\core;
+namespace himanshupurohit\orion;
 
-use app\core\Application;
+use himanshupurohit\orion\Application;
 // use PDO;
 
 /**
  * Class Database
  * 
  * @author Himanshu Purohit <himanshu1203@gmail.com>
- * @package app\core
+ * @package himanshupurohit\orion
  */
 
 class Database

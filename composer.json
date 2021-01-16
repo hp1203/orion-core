@@ -7,5 +7,10 @@
             "email": "himanshu1203@gmail.com"
         }
     ],
-    "require": {}
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "himanshupurohit\\orion": "./"
+        }
+    }
 }

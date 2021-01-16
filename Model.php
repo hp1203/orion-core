@@ -1,11 +1,11 @@
 <?php 
 
-namespace app\core;
+namespace himanshupurohit\orion;
 /**
  * Class Model
  * 
  * @author Himanshu Purohit <himanshu1203@gmail.com>
- * @package app\core
+ * @package himanshupurohit\orion
  */
 
 abstract class Model

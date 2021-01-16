@@ -1,14 +1,14 @@
 <?php 
 
-namespace app\core\form;
+namespace himanshupurohit\orion\form;
 
-use app\core\Model;
+use himanshupurohit\orion\Model;
 
 /**
  * Class BaseField
  * 
  * @author Himanshu Purohit <himanshu1203@gmail.com>
- * @package app\core\form
+ * @package himanshupurohit\orion\form
  */
 
  abstract class BaseField
@@ -21,7 +21,7 @@ use app\core\Model;
     /**
      * BaseField Constructor
      * 
-     * @param \app\core\Model $model
+     * @param \himanshupurohit\orion\Model $model
      * @param string $attribute
      */
 
