@@ -1,13 +1,13 @@
 <?php 
 
-namespace app\core;
-use app\core\Model;
-use app\core\Application;
+namespace himanshupurohit\orion;
+use himanshupurohit\orion\Model;
+use himanshupurohit\orion\Application;
 /**
  * Class DbModel
  * 
  * @author Himanshu Purohit <himanshu1203@gmail.com>
- * @package app\core
+ * @package himanshupurohit\orion
  */
 
 abstract class DbModel extends Model
