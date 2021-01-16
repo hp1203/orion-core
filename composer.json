@@ -1,0 +1,11 @@
+{
+    "name": "himanshupurohit/orion-core",
+    "description": "Simple Php MVC Framework",
+    "authors": [
+        {
+            "name": "Himanshu Purohit",
+            "email": "himanshu1203@gmail.com"
+        }
+    ],
+    "require": {}
+}
